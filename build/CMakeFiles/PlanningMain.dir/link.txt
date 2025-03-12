@@ -1,0 +1,3 @@
+E:\Software\CMake\bin\cmake.exe -E rm -f CMakeFiles\PlanningMain.dir/objects.a
+E:\Software\mingw64\bin\ar.exe qc CMakeFiles\PlanningMain.dir/objects.a @CMakeFiles\PlanningMain.dir\objects1.rsp
+E:\Software\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\PlanningMain.dir/objects.a -Wl,--no-whole-archive -o D:\Script_Space\VSCode\Test20250312_5_Cmake_Github\CMakePlanningforTest\bin\PlanningMain.exe -Wl,--out-implib,D:\Script_Space\VSCode\Test20250312_5_Cmake_Github\CMakePlanningforTest\bin\libPlanningMain.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\PlanningMain.dir\linkLibs.rsp
