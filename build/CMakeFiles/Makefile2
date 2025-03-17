@@ -62,10 +62,12 @@ CMAKE_BINARY_DIR = D:\Script_Space\VSCode\Test20250312_5_Cmake_Github\CMakePlann
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/common.dir/all
 all: CMakeFiles/PlanningMain.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
+codegen: CMakeFiles/common.dir/codegen
 codegen: CMakeFiles/PlanningMain.dir/codegen
 .PHONY : codegen
 
@@ -74,22 +76,55 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/common.dir/clean
 clean: CMakeFiles/PlanningMain.dir/clean
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/common.dir
+
+# All Build rule for target.
+CMakeFiles/common.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\common.dir\build.make CMakeFiles/common.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\common.dir\build.make CMakeFiles/common.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Script_Space\VSCode\Test20250312_5_Cmake_Github\CMakePlanningforTest\build\CMakeFiles --progress-num=3,4,5 "Built target common"
+.PHONY : CMakeFiles/common.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/common.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Script_Space\VSCode\Test20250312_5_Cmake_Github\CMakePlanningforTest\build\CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/common.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Script_Space\VSCode\Test20250312_5_Cmake_Github\CMakePlanningforTest\build\CMakeFiles 0
+.PHONY : CMakeFiles/common.dir/rule
+
+# Convenience name for target.
+common: CMakeFiles/common.dir/rule
+.PHONY : common
+
+# codegen rule for target.
+CMakeFiles/common.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\common.dir\build.make CMakeFiles/common.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Script_Space\VSCode\Test20250312_5_Cmake_Github\CMakePlanningforTest\build\CMakeFiles --progress-num=3,4,5 "Finished codegen for target common"
+.PHONY : CMakeFiles/common.dir/codegen
+
+# clean rule for target.
+CMakeFiles/common.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\common.dir\build.make CMakeFiles/common.dir/clean
+.PHONY : CMakeFiles/common.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/PlanningMain.dir
 
 # All Build rule for target.
-CMakeFiles/PlanningMain.dir/all:
+CMakeFiles/PlanningMain.dir/all: CMakeFiles/common.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PlanningMain.dir\build.make CMakeFiles/PlanningMain.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PlanningMain.dir\build.make CMakeFiles/PlanningMain.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Script_Space\VSCode\Test20250312_5_Cmake_Github\CMakePlanningforTest\build\CMakeFiles --progress-num=1,2,3,4 "Built target PlanningMain"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Script_Space\VSCode\Test20250312_5_Cmake_Github\CMakePlanningforTest\build\CMakeFiles --progress-num=1,2 "Built target PlanningMain"
 .PHONY : CMakeFiles/PlanningMain.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/PlanningMain.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Script_Space\VSCode\Test20250312_5_Cmake_Github\CMakePlanningforTest\build\CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Script_Space\VSCode\Test20250312_5_Cmake_Github\CMakePlanningforTest\build\CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/PlanningMain.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Script_Space\VSCode\Test20250312_5_Cmake_Github\CMakePlanningforTest\build\CMakeFiles 0
 .PHONY : CMakeFiles/PlanningMain.dir/rule
@@ -101,7 +136,7 @@ PlanningMain: CMakeFiles/PlanningMain.dir/rule
 # codegen rule for target.
 CMakeFiles/PlanningMain.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PlanningMain.dir\build.make CMakeFiles/PlanningMain.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Script_Space\VSCode\Test20250312_5_Cmake_Github\CMakePlanningforTest\build\CMakeFiles --progress-num=1,2,3,4 "Finished codegen for target PlanningMain"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Script_Space\VSCode\Test20250312_5_Cmake_Github\CMakePlanningforTest\build\CMakeFiles --progress-num=1,2 "Finished codegen for target PlanningMain"
 .PHONY : CMakeFiles/PlanningMain.dir/codegen
 
 # clean rule for target.

@@ -1,20 +1,20 @@
 [
 {
   "directory": "D:/Script_Space/VSCode/Test20250312_5_Cmake_Github/CMakePlanningforTest/build",
-  "command": "E:\\Software\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\PlanningMain.dir\\main.cpp.obj -c D:\\Script_Space\\VSCode\\Test20250312_5_Cmake_Github\\CMakePlanningforTest\\main.cpp",
+  "command": "E:\\Software\\mingw64\\bin\\g++.exe -Dcommon_EXPORTS @CMakeFiles/common.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\common.dir\\src\\pnc_map.cpp.obj -c D:\\Script_Space\\VSCode\\Test20250312_5_Cmake_Github\\CMakePlanningforTest\\src\\pnc_map.cpp",
+  "file": "D:/Script_Space/VSCode/Test20250312_5_Cmake_Github/CMakePlanningforTest/src/pnc_map.cpp",
+  "output": "CMakeFiles/common.dir/src/pnc_map.cpp.obj"
+},
+{
+  "directory": "D:/Script_Space/VSCode/Test20250312_5_Cmake_Github/CMakePlanningforTest/build",
+  "command": "E:\\Software\\mingw64\\bin\\g++.exe -Dcommon_EXPORTS @CMakeFiles/common.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\common.dir\\src\\process.cpp.obj -c D:\\Script_Space\\VSCode\\Test20250312_5_Cmake_Github\\CMakePlanningforTest\\src\\process.cpp",
+  "file": "D:/Script_Space/VSCode/Test20250312_5_Cmake_Github/CMakePlanningforTest/src/process.cpp",
+  "output": "CMakeFiles/common.dir/src/process.cpp.obj"
+},
+{
+  "directory": "D:/Script_Space/VSCode/Test20250312_5_Cmake_Github/CMakePlanningforTest/build",
+  "command": "E:\\Software\\mingw64\\bin\\g++.exe  @CMakeFiles/PlanningMain.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\PlanningMain.dir\\main.cpp.obj -c D:\\Script_Space\\VSCode\\Test20250312_5_Cmake_Github\\CMakePlanningforTest\\main.cpp",
   "file": "D:/Script_Space/VSCode/Test20250312_5_Cmake_Github/CMakePlanningforTest/main.cpp",
   "output": "CMakeFiles/PlanningMain.dir/main.cpp.obj"
-},
-{
-  "directory": "D:/Script_Space/VSCode/Test20250312_5_Cmake_Github/CMakePlanningforTest/build",
-  "command": "E:\\Software\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\PlanningMain.dir\\pnc_map.cpp.obj -c D:\\Script_Space\\VSCode\\Test20250312_5_Cmake_Github\\CMakePlanningforTest\\pnc_map.cpp",
-  "file": "D:/Script_Space/VSCode/Test20250312_5_Cmake_Github/CMakePlanningforTest/pnc_map.cpp",
-  "output": "CMakeFiles/PlanningMain.dir/pnc_map.cpp.obj"
-},
-{
-  "directory": "D:/Script_Space/VSCode/Test20250312_5_Cmake_Github/CMakePlanningforTest/build",
-  "command": "E:\\Software\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\PlanningMain.dir\\process.cpp.obj -c D:\\Script_Space\\VSCode\\Test20250312_5_Cmake_Github\\CMakePlanningforTest\\process.cpp",
-  "file": "D:/Script_Space/VSCode/Test20250312_5_Cmake_Github/CMakePlanningforTest/process.cpp",
-  "output": "CMakeFiles/PlanningMain.dir/process.cpp.obj"
 }
 ]

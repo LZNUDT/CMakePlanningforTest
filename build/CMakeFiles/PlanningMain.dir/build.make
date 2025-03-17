@@ -72,6 +72,7 @@ CMakeFiles/PlanningMain.dir/codegen:
 .PHONY : CMakeFiles/PlanningMain.dir/codegen
 
 CMakeFiles/PlanningMain.dir/main.cpp.obj: CMakeFiles/PlanningMain.dir/flags.make
+CMakeFiles/PlanningMain.dir/main.cpp.obj: CMakeFiles/PlanningMain.dir/includes_CXX.rsp
 CMakeFiles/PlanningMain.dir/main.cpp.obj: D:/Script_Space/VSCode/Test20250312_5_Cmake_Github/CMakePlanningforTest/main.cpp
 CMakeFiles/PlanningMain.dir/main.cpp.obj: CMakeFiles/PlanningMain.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Script_Space\VSCode\Test20250312_5_Cmake_Github\CMakePlanningforTest\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PlanningMain.dir/main.cpp.obj"
@@ -85,51 +86,20 @@ CMakeFiles/PlanningMain.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PlanningMain.dir/main.cpp.s"
 	E:\Software\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Script_Space\VSCode\Test20250312_5_Cmake_Github\CMakePlanningforTest\main.cpp -o CMakeFiles\PlanningMain.dir\main.cpp.s
 
-CMakeFiles/PlanningMain.dir/pnc_map.cpp.obj: CMakeFiles/PlanningMain.dir/flags.make
-CMakeFiles/PlanningMain.dir/pnc_map.cpp.obj: D:/Script_Space/VSCode/Test20250312_5_Cmake_Github/CMakePlanningforTest/pnc_map.cpp
-CMakeFiles/PlanningMain.dir/pnc_map.cpp.obj: CMakeFiles/PlanningMain.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Script_Space\VSCode\Test20250312_5_Cmake_Github\CMakePlanningforTest\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PlanningMain.dir/pnc_map.cpp.obj"
-	E:\Software\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PlanningMain.dir/pnc_map.cpp.obj -MF CMakeFiles\PlanningMain.dir\pnc_map.cpp.obj.d -o CMakeFiles\PlanningMain.dir\pnc_map.cpp.obj -c D:\Script_Space\VSCode\Test20250312_5_Cmake_Github\CMakePlanningforTest\pnc_map.cpp
-
-CMakeFiles/PlanningMain.dir/pnc_map.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PlanningMain.dir/pnc_map.cpp.i"
-	E:\Software\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Script_Space\VSCode\Test20250312_5_Cmake_Github\CMakePlanningforTest\pnc_map.cpp > CMakeFiles\PlanningMain.dir\pnc_map.cpp.i
-
-CMakeFiles/PlanningMain.dir/pnc_map.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PlanningMain.dir/pnc_map.cpp.s"
-	E:\Software\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Script_Space\VSCode\Test20250312_5_Cmake_Github\CMakePlanningforTest\pnc_map.cpp -o CMakeFiles\PlanningMain.dir\pnc_map.cpp.s
-
-CMakeFiles/PlanningMain.dir/process.cpp.obj: CMakeFiles/PlanningMain.dir/flags.make
-CMakeFiles/PlanningMain.dir/process.cpp.obj: D:/Script_Space/VSCode/Test20250312_5_Cmake_Github/CMakePlanningforTest/process.cpp
-CMakeFiles/PlanningMain.dir/process.cpp.obj: CMakeFiles/PlanningMain.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Script_Space\VSCode\Test20250312_5_Cmake_Github\CMakePlanningforTest\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PlanningMain.dir/process.cpp.obj"
-	E:\Software\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PlanningMain.dir/process.cpp.obj -MF CMakeFiles\PlanningMain.dir\process.cpp.obj.d -o CMakeFiles\PlanningMain.dir\process.cpp.obj -c D:\Script_Space\VSCode\Test20250312_5_Cmake_Github\CMakePlanningforTest\process.cpp
-
-CMakeFiles/PlanningMain.dir/process.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PlanningMain.dir/process.cpp.i"
-	E:\Software\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Script_Space\VSCode\Test20250312_5_Cmake_Github\CMakePlanningforTest\process.cpp > CMakeFiles\PlanningMain.dir\process.cpp.i
-
-CMakeFiles/PlanningMain.dir/process.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PlanningMain.dir/process.cpp.s"
-	E:\Software\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Script_Space\VSCode\Test20250312_5_Cmake_Github\CMakePlanningforTest\process.cpp -o CMakeFiles\PlanningMain.dir\process.cpp.s
-
 # Object files for target PlanningMain
 PlanningMain_OBJECTS = \
-"CMakeFiles/PlanningMain.dir/main.cpp.obj" \
-"CMakeFiles/PlanningMain.dir/pnc_map.cpp.obj" \
-"CMakeFiles/PlanningMain.dir/process.cpp.obj"
+"CMakeFiles/PlanningMain.dir/main.cpp.obj"
 
 # External object files for target PlanningMain
 PlanningMain_EXTERNAL_OBJECTS =
 
 D:/Script_Space/VSCode/Test20250312_5_Cmake_Github/CMakePlanningforTest/bin/PlanningMain.exe: CMakeFiles/PlanningMain.dir/main.cpp.obj
-D:/Script_Space/VSCode/Test20250312_5_Cmake_Github/CMakePlanningforTest/bin/PlanningMain.exe: CMakeFiles/PlanningMain.dir/pnc_map.cpp.obj
-D:/Script_Space/VSCode/Test20250312_5_Cmake_Github/CMakePlanningforTest/bin/PlanningMain.exe: CMakeFiles/PlanningMain.dir/process.cpp.obj
 D:/Script_Space/VSCode/Test20250312_5_Cmake_Github/CMakePlanningforTest/bin/PlanningMain.exe: CMakeFiles/PlanningMain.dir/build.make
+D:/Script_Space/VSCode/Test20250312_5_Cmake_Github/CMakePlanningforTest/bin/PlanningMain.exe: libcommon.dll.a
 D:/Script_Space/VSCode/Test20250312_5_Cmake_Github/CMakePlanningforTest/bin/PlanningMain.exe: CMakeFiles/PlanningMain.dir/linkLibs.rsp
 D:/Script_Space/VSCode/Test20250312_5_Cmake_Github/CMakePlanningforTest/bin/PlanningMain.exe: CMakeFiles/PlanningMain.dir/objects1.rsp
 D:/Script_Space/VSCode/Test20250312_5_Cmake_Github/CMakePlanningforTest/bin/PlanningMain.exe: CMakeFiles/PlanningMain.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\Script_Space\VSCode\Test20250312_5_Cmake_Github\CMakePlanningforTest\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable D:\Script_Space\VSCode\Test20250312_5_Cmake_Github\CMakePlanningforTest\bin\PlanningMain.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\Script_Space\VSCode\Test20250312_5_Cmake_Github\CMakePlanningforTest\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable D:\Script_Space\VSCode\Test20250312_5_Cmake_Github\CMakePlanningforTest\bin\PlanningMain.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\PlanningMain.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
